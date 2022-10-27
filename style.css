@@ -7,7 +7,8 @@
 }
 
 .carousel-item{
-    padding: 10px 50px
+    padding: 10px 50px;
+    padding-left: 120px;
 }
 .price{
     color: rgb(29, 67, 122);
@@ -17,4 +18,25 @@
     border: none;
     border-radius: 5px;
     background-image: linear-gradient(to top,lightsalmon,tomato);
+}
+
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.cat1{
+    background-color: orange;
+}
+.cat2{
+    background-color: orchid;
+}
+.cat3{
+    background-color: blue;
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
 }
